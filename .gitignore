@@ -1,0 +1,48 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment variables file
+.env
+
+# Docker
+docker-compose.override.yml
+.docker
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Celery files
+celerybeat-schedule
+celeryd.pid
+
+# Pytest
+.cache
+
+# Logs
+*.log
+
+# Redis database files
+dump.rdb
+appendonly.aof
+
+# IDE or Editor-specific files (Example: Sublime Text)
+*.sublime-project
+*.sublime-workspace
+
+# FastAPI specific (sometimes useful to ignore venv)
+venv/
